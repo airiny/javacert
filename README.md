@@ -13,3 +13,5 @@ Usage:
    
    REM: no protocol prefix needed
    
+   REM: JAVA_HOME system variable must be initialized
+   
