@@ -8,6 +8,8 @@ Many Java applications have problem to connect to self-signed SSL services firin
 This solution is based on Sun (C) InstallCert code.
 
 Usage:
+
    java javacert-0.0.1-SNAPSHOT.jar [your.domain.name:port]
+   
    REM: no protocol prefix needed
    
