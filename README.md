@@ -7,11 +7,11 @@ Many Java applications have problem to connect to self-signed SSL services firin
 
 This solution is based on Sun (C) InstallCert code.
 
-Usage:
+**Usage:**
 
    java javacert-0.0.1-SNAPSHOT.jar [your.domain.name:port]
    
-   REM: no protocol prefix needed
-   
-   REM: JAVA_HOME system variable must be initialized
+REM: 
+- no protocol prefix needed
+- JAVA_HOME system variable must be initialized
    
