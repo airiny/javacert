@@ -130,6 +130,7 @@ public class InstallCert {
             System.out.println();
         }
 
+        /* Interactive part of this code is removed for automatic acceptance
         System.out.println("Enter certificate to add to trusted keystore or 'q' to quit: [1]");
         String line = reader.readLine().trim();
         int k;
@@ -139,6 +140,8 @@ public class InstallCert {
             System.out.println("KeyStore not changed");
             return;
         }
+        */
+        int k = 1;
 
         X509Certificate cert = chain[k];
         String alias = host + "-" + (k + 1);
